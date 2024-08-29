@@ -2,7 +2,7 @@
   "name": "@dolphincsv/react-csv-importer",
   "description": "DolphinCSV embeddable CSV importer SDK for React",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "DolphinCSV",
   "license": "MIT",
   "repository": {
