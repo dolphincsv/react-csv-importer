@@ -32,15 +32,15 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.4"
   },
-  "main": "dist/packages/index.1.0.0.cjs.js",
-  "module": "dist/packages/index.1.0.0.es.js",
-  "browser": "dist/packages/index.1.0.0.umd.js",
+  "main": "dist/packages/index.1.0.2.cjs.js",
+  "module": "dist/packages/index.1.0.2.es.js",
+  "browser": "dist/packages/index.1.0.2.umd.js",
   "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/packages/index.1.0.0.es.js",
-      "require": "./dist/packages/index.1.0.0.cjs.js",
-      "default": "./dist/packages/index.1.0.0.umd.js",
+      "import": "./dist/packages/index.1.0.2.es.js",
+      "require": "./dist/packages/index.1.0.2.cjs.js",
+      "default": "./dist/packages/index.1.0.2.umd.js",
       "types": "./dist/types/index.d.ts"
     },
     "./package.json": "./package.json"
