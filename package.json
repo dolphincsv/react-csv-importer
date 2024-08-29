@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dolphincsv/react-csv-importer.git"
+    "url": "git+https://github.com/dolphincsv/react-csv-importer.git"
   },
   "homepage": "https://dolphincsv.com",
   "type": "module",
@@ -44,5 +44,17 @@
       "types": "./dist/types/index.d.ts"
     },
     "./package.json": "./package.json"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dolphincsv/react-csv-importer/issues"
+  },
+  "keywords": [
+    "react",
+    "csv",
+    "spreadsheet",
+    "import",
+    "importer",
+    "embedded",
+    "embeddable"
+  ]
 }
