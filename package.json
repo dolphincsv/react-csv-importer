@@ -2,7 +2,7 @@
   "name": "@dolphincsv/react-csv-importer",
   "description": "DolphinCSV embeddable CSV importer SDK for React",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "DolphinCSV",
   "license": "MIT",
   "repository": {
@@ -15,7 +15,7 @@
     "build": "tsc -b && vite build && node update-package-json.cjs"
   },
   "dependencies": {
-    "@dolphincsv/csv-importer-js": "^1.0.5",
+    "@dolphincsv/csv-importer-js": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -32,15 +32,15 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.4"
   },
-  "main": "dist/packages/index.1.0.4.cjs.js",
-  "module": "dist/packages/index.1.0.4.es.js",
-  "browser": "dist/packages/index.1.0.4.umd.js",
+  "main": "dist/packages/index.1.0.5.cjs.js",
+  "module": "dist/packages/index.1.0.5.es.js",
+  "browser": "dist/packages/index.1.0.5.umd.js",
   "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/packages/index.1.0.4.es.js",
-      "require": "./dist/packages/index.1.0.4.cjs.js",
-      "default": "./dist/packages/index.1.0.4.umd.js",
+      "import": "./dist/packages/index.1.0.5.es.js",
+      "require": "./dist/packages/index.1.0.5.cjs.js",
+      "default": "./dist/packages/index.1.0.5.umd.js",
       "types": "./dist/types/index.d.ts"
     },
     "./package.json": "./package.json"
