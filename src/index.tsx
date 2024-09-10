@@ -8,24 +8,9 @@ const DolphinCSVImporter: FC<Props> = (p) => {
 
   const [importer] = useState<Importer>(() => {
     if (p.mode !== 'demo') {
-      return new Importer({
-        clientId: p.clientId,
-        templateKey: p.templateKey,
-        iFrameClassName: p.iFrameClassName || '',
-        columns: p.columns,
-        mode: p.mode,
-        onSuccess: p.onSuccess,
-        onError: p.onError,
-        onClose: p.onClose,
-      })
+      return new Importer(p)
     } else {
-      return new Importer({
-        iFrameClassName: p.iFrameClassName || '',
-        mode: p.mode,
-        onSuccess: p.onSuccess,
-        onError: p.onError,
-        onClose: p.onClose,
-      })
+      return new Importer(p)
     }
 
   });
