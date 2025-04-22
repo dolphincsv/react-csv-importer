@@ -2,7 +2,7 @@
   "name": "@dolphincsv/react-csv-importer",
   "description": "DolphinCSV embeddable CSV importer SDK for React",
   "private": false,
-  "version": "1.0.19",
+  "version": "1.0.20",
   "author": "DolphinCSV",
   "license": "MIT",
   "repository": {
@@ -34,15 +34,15 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.4"
   },
-  "main": "dist/packages/index.1.0.19.cjs.js",
-  "module": "dist/packages/index.1.0.19.es.js",
-  "browser": "dist/packages/index.1.0.19.umd.js",
+  "main": "dist/packages/index.1.0.20.cjs.js",
+  "module": "dist/packages/index.1.0.20.es.js",
+  "browser": "dist/packages/index.1.0.20.umd.js",
   "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/packages/index.1.0.19.es.js",
-      "require": "./dist/packages/index.1.0.19.cjs.js",
-      "default": "./dist/packages/index.1.0.19.umd.js",
+      "import": "./dist/packages/index.1.0.20.es.js",
+      "require": "./dist/packages/index.1.0.20.cjs.js",
+      "default": "./dist/packages/index.1.0.20.umd.js",
       "types": "./dist/types/index.d.ts"
     },
     "./package.json": "./package.json"
